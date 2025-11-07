@@ -1,0 +1,28 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace "com.gaba.floatingstopyapro"
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.gaba.floatingstopyapro"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release { minifyEnabled false }
+        debug { minifyEnabled false }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    implementation "androidx.annotation:annotation:1.9.1"
+}

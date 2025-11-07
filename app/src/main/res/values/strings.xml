@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Floating Stop Ya.Pro</string>
+    <string name="start">START BUBBLE</string>
+    <string name="stop">STOP BUBBLE</string>
+    <string name="need_overlay">Включи \"Показывать поверх других приложений\" для этого приложения</string>
+    <string name="notif_channel_name">Floating Button</string>
+    <string name="notif_running">Плавающая кнопка активна</string>
+    <string name="toast_stopped">🚫 Яндекс Про остановлен</string>
+    <string name="toast_fail">❗ Не удалось выполнить (root?)</string>
+</resources>
